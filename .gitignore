@@ -5,15 +5,14 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build output
-dist/
 build/
-*.js
 *.js.map
 *.d.ts
 *.d.ts.map
 
 # Keep important JS files if any
 !src/**/*.js
+!dist/**/*.js
 
 # Environment variables
 .env
