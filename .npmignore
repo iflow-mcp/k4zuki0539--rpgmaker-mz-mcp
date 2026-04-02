@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keep dist directory
+!dist/
+
+# Keep source files
+src/
+
+# Keep important files
+package.json
+README.md
+*.md
+tsconfig.json
